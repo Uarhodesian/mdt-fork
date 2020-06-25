@@ -1,4 +1,4 @@
-*.txt
-*.jpg
+**.txt
+**.jpg
 /img
 /image
