@@ -1,0 +1,2 @@
+* * * * *    cd /home/ec2-user/repo/mdt-fork && sudo git pull origin master
+*/5 * * * *  sudo cp /home/ec2-user/repo/mdt-fork/index.html /var/www/html/index.html
