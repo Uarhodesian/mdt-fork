@@ -1,5 +1,5 @@
 pipeline {
-    agent centos
+    agent any
     environment {
       PROJECT_NAME = "Pipeline"
       OWNER_NAME   = "Oleksii Danyliuk"
