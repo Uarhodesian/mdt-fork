@@ -22,13 +22,5 @@ pipeline {
 		echo "-------test finished-------"
             }
         }
-        stage('3-Deploy') {
-            steps {
-                echo "Start of Stage Deploy..."
-                echo "Deploying......."
-                echo "End of Stage Build..."
-            }
-        }
-	
     }
 }
