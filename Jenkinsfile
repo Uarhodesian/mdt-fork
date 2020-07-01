@@ -9,9 +9,7 @@ pipeline {
         stage('2-Test') {
             steps {
                 echo "Start of Stage Test..."
-		        echo "-------test started-------"
-                echo "Hello ${PROJECT_NAME}"
-                echo "Owner is ${OWNER_NAME}"
+		echo "-------test started-------"
                 echo "End of Stage Build..."
 
                 echo "-------test finished-------"
