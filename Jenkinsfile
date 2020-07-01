@@ -18,15 +18,7 @@ pipeline {
 		echo "-------test started-------"
                 echo "Hello ${PROJECT_NAME}"
                 echo "Owner is ${OWNER_NAME}"
-		result='my son!'
-		echo $result
-		if ["$result"="1"]
-		then
-			echo "Test passed"
-		else
-			echo "Test failed"
-			exit 1
-		fi
+
 		echo "-------test finished-------"
             }
         }
