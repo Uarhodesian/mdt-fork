@@ -18,8 +18,7 @@ pipeline {
 		echo "-------test started-------"
                 echo "Hello ${PROJECT_NAME}"
                 echo "Owner is ${OWNER_NAME}"
-                echo "End of Stage Build..."
-		result=`you’ll be a Man, my son!`
+		result=`my son!`
 		echo $result
 		if ["$result"="1"]
 		then
