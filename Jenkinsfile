@@ -11,7 +11,6 @@ pipeline {
                 echo "Start of Stage Test..."
 		echo "-------test started-------"
                 echo "End of Stage Build..."
-
                 echo "-------test finished-------"
             }
         }
