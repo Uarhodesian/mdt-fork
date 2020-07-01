@@ -13,15 +13,7 @@ pipeline {
                 echo "Hello ${PROJECT_NAME}"
                 echo "Owner is ${OWNER_NAME}"
                 echo "End of Stage Build..."
-                result=`you’ll be a Man, my son!`
-                echo $result
-                if ["$result"="1"]
-                then
-                    echo "Test passed"
-                else
-                    echo "Test failed"
-                    exit 1
-                fi
+
                 echo "-------test finished-------"
             }
         }
