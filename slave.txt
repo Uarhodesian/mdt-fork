@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo yum update -y
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install git -y
+
+
+sudo adduser jenkins --shell /bin/bash
+sudo passwd jenkins
+su jenkins
+mkdir /home/jenkins/jenkins_slave
+mkdir ~/.ssh && cd ~/.ssh
+ssh-keygen -t rsa -C "The access key for Jenkins slaves"
+cat id_rsa.pub > ~/.ssh/authorized_keys
+cat id_rsa
