@@ -1,0 +1,2 @@
+git config --global user.name "Oleksii Danyliuk"
+git config --global user.email danilyuk@bigmir.net
